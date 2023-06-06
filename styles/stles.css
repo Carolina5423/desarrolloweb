@@ -1,7 +1,10 @@
 /* estilos para body imagen */
-.img-fluid {
+.img-conteiner mt-5
+ {
     max-width: 100% ;
-    height: auto;
+    position: absolute;
+
+
 }
 .container {
     border: 2px solid black;
