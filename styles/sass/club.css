@@ -1,0 +1,51 @@
+.col-text {
+  height: 20em;
+}
+
+.grid-flex {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+}
+.grid-flex .col {
+  flex: 1;
+}
+.grid-flex .col-left {
+  order: -1;
+}
+.grid-flex .col-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-flex .Aligner-item {
+  width: 60%;
+}
+
+.col-image {
+  background-size: cover;
+  background-color: cadetblue;
+  background-position: center center;
+}
+
+@media (max-width: 640px) {
+  .grid-flex {
+    height: 40em;
+    display: -webkit-flex;
+    flex-direction: column;
+  }
+  .grid-flex .col {
+    order: vertical;
+  }
+  .grid-flex .col-left {
+    order: 0;
+  }
+  .grid-flex .col-text div p {
+    padding: 1em;
+  }
+  .grid-flex .Aligner-item {
+    width: 90%;
+  }
+}/*# sourceMappingURL=club.css.map */
