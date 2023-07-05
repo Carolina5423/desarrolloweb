@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles/sass/main.css">
-
+<link rel="stylesheet" href="./scss/escuela/escuela.css">
     <link rel="stylesheet" href="./styles/stles.css">
 
     <title>Escuela</title>
-    <link rel="stylesheet" href="./styles/sass/main.css">
 </head>
 <body>
 <!-- NAVBAR -->
@@ -44,8 +42,8 @@
               </li>              
             </ul>
         
-              <button class="btn btn-outline-success" type="submit"  href="https://donaronline.org/" >DONAR</button>
-            </form>
+            <a class="btn btn-outline-success" type="submit" href="http://donaronline.org/">DONAR</href=></a>
+          </form>
           </div>
         </div>
       </nav>
@@ -53,27 +51,55 @@
 
     <!-- main -->
     <main>
-
-    <section class="mt-4"> <div class="container">
-        <div class="row">
-          <div class="card" style="width: 18rem;">
-            <img src="./imagenes/colegiopedro.jpg" class="card-img-top" alt="escuelapedro">
-            <div class="card-body">
-              <h5 class="card-title">COLEGIO ING.PEDRO CRISTIA</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="row">
+        <div class="example-1 card">
+          <div class="wrapper">
+            <div class="date">
+              <span class="day">01</span>
+                          </div>
+            <div class="data">
+              <div class="content">
+                <span class="author">Jane Doe</span>
+                <h1 class="title"><a href="#">Boxing icon has the will for a couple more fights</a></h1>
+                <p class="text">The highly anticipated world championship fight will take place at 10am and is the second major boxing blockbuster in the nation after 43 years.</p>
+                <label for="show-menu" class="menu-button"><span></span></label>
+              </div>
+              <input type="checkbox" id="show-menu" />
+              <ul class="menu-content">
+                <li>
+                  <a href="#" class="fa fa-bookmark-o"></a>
+                </li>
+                <li><a href="#" class="fa fa-heart-o"><span>47</span></a></li>
+                <li><a href="#" class="fa fa-comment-o"><span>8</span></a></li>
+              </ul>
             </div>
           </div>
-      
-      
-          <div class="card" style="width: 18rem;">
-            <img src="./imagenes/colegioboneo.jpg" class="card-img-top" alt="coelgioboneo">
-            <div class="card-body">
-              <h5 class="card-title">COLEGIO BONEO</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="example-2 card">
+          <div class="wrapper">
+            <div class="header">s
+              <div class="date">
+                
+              </div>
+              <ul class="menu-content">
+                <li>
+                  <a href="#" class="fa fa-bookmark-o"></a>
+                </li>
+                <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+              </ul>
+            </div>
+            <div class="data">
+              <div class="content">
+                <span class="author">Jane Doe</span>
+                <h1 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+                <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+                <a href="#" class="button">Read more</a>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
         </main>
 
         <!-- footer -->
@@ -81,7 +107,7 @@
       
           <div class="footer-left">
     
-            <h3>Company<span>logo</span></h3>
+            <h3>Carolina<span>Olmos</span></h3>
     
             <p class="footer-links">
               <a href="#" class="link-1">HOME</a>
@@ -119,8 +145,7 @@
           <div class="footer-right">
     
             <p class="footer-company-about">
-              <span>About the company</span>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+              <span>Para mas informacion sigannos en nuestras redes</span>
             </p>
     
             <div class="footer-icons">

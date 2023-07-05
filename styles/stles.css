@@ -1,9 +1,6 @@
-/* estilos para navbar */
-
-
-
 /* estilos para body imagen
- */.img-conteiner mt-5
+ */
+.img-conteiner mt-5
  {
     max-width: 100% ;
     position: absolute;
@@ -241,7 +238,7 @@ section {
 	vertical-align: top;
 }
 
-/* Footer left */
+/* Footer izq */
 
 .footer-distributed .footer-left{
 	width: 40%;
@@ -407,7 +404,7 @@ section {
 }
 /* ESTILOS PARA CLUB */
 
-/* .col-text {
+.col-text {
   height:20em;
 }
 .grid-flex {
@@ -454,8 +451,7 @@ section {
     height: 40em;
     display: -webkit-flex;
     -webkit-flex-direction: column;
-    flex-direction: column; 
-   }
+    flex-direction: column; }
   .col {
     order:vertical;
   }
@@ -472,4 +468,3 @@ section {
     width: 90%;
   }
 }
- */
